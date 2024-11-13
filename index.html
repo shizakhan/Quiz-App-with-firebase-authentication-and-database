@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="quiz-container">
+    <div class="progress mt-4" id="progress1">
+      <div class="progress-bar" id="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100"></div>
+      <h1 id="questioncount">Current Question:1/5</h1>
+      <div id="question" class="question"></div> <!--question load hoga through javascript-->
+      <h1 id="percent" class="percentage"></h1><!--show percentage through javascript-->
+      <div id="options" class="options">
+
+      </div>
+    </div>
+
+  </div>
+  <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
